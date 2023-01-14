@@ -1,0 +1,141 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+/*------- header styles -------*/
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-title {
+    font-size: 24px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.item {
+    margin: 20px;
+}
+
+/* ----banner section----- */
+.banner-container {
+    display: flex;
+    margin: 50px 150px;
+    justify-content: center;
+}
+
+.banner-image {
+    background-image: url("/images/Circle\ design.svg");
+    width: 440px;
+    height: 414px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.banner-description {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-primary {}
+
+/* -------logo section------ */
+.logos {
+    
+   
+    margin: 100px 150px;
+    width: 1110px;
+    height: 50px;
+
+}
+.logo-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo-container img{
+    padding: 20px;
+}
+
+hr {
+    border: 0;
+    width: px;
+    height: 110px;
+    
+    
+    background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+
+}
+/* --------------main section------------- */
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 120px;
+    grid-row-gap: 25px;
+    grid-column-gap: 0px;
+}
+
+.container-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500px;
+    margin-bottom: 50px;
+}
+
+.box-containt {
+    width: 320px;
+    height: 460px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+    grid-column-gap: 15px;
+}
+
+
+.porduct-description {
+    color: #787885;
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.fa-star-half-stroke,
+.fa-star {
+    color: #FB8200;
+    width: 11.07px;
+    height: 10.32px;
+    gap: 2px;
+}
+    
+
+
+.box-image img{
+    justify-content: center;
+    padding: 10px;
+}
+
+    
+
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
+
+}
